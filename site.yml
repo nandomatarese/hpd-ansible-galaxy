@@ -4,8 +4,8 @@
   become: yes
 
   roles:
-    - common
-    - mariadb
-    - nginx
-    - php-fpm
-    - wordpress
+    - matarese.common
+    - matarese.mariadb
+    - matarese.nginx
+    - matarese.php-fpm
+    - matarese.wordpress
